@@ -529,7 +529,7 @@ case '3'://BIRTHDAY QUADRATIC
         printf("\n\t(2)  SEARCH FOR A STUDENT");
         printf("\n\t(3)  REMOVE A STUDENT");
         printf("\n\t(4)  LIST THE HASH TABLE\n");
-        printf("\n\t(5)  \n");
+
         printf("\n\n\tOption: ");
         scanf("%d", &option);
         switch(option)
@@ -550,11 +550,6 @@ case '3'://BIRTHDAY QUADRATIC
             case 4:
                 print();
                 break;
-             case 5:
-                break;
-	default:
-		printf("\a");
-
         }
     }while(option>0);
     break;}
